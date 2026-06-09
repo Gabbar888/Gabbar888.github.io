@@ -8,10 +8,8 @@ middle_name:
 last_name: Anand
 contact_note: >
   Best way to reach me is over email.
-description: >
-Statistics & Data Science undergrad at IIT Kanpur transitioning into the professional world. I thrive on solving varied challenges in machine learning, generative AI, and large language models, turning complex data into actionable solutions.
-footer_text: >
-  © 2026 Subham Anand. Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+description: Statistics & Data Science undergrad at IIT Kanpur transitioning into the professional world. I thrive on solving varied challenges in machine learning, generative AI, and large language models, turning complex data into actionable solutions.
+footer_text: © 2026 Subham Anand. Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: subham anand, iit kanpur, machine learning, llm, nlp, statistics, data science
 lang: en
 icon: ⚛️
