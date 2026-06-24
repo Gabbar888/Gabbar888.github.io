@@ -8,9 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>B.S. Statistics & Data Science</p>
-    <p>IIT Kanpur · 2026</p>
+  more_info:
 
 selected_papers: false
 social: true
