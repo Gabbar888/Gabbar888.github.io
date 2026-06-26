@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Knowledge Graph Extraction from Unstructured Text
-description: Open-source pipeline for dense KG generation — pre-release
+title: Knowledge Graph Extraction
+description: Open-source pipeline for dense KG & Dialogue Generation — **pre-release**
 img: assets/img/projects/kg.png
 importance: 1
 category: research
@@ -9,15 +9,6 @@ related_publications: false
 ---
 
 An open-source project (pre-release, so I'll hold the name and end goal for now) focused on building a high-recall pipeline for generating dense **knowledge graphs from unstructured text**. As a core contributor, my work spans the extraction pipeline, model evaluation, and data engineering.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/kg.png" title="Knowledge graph: entities linked by labeled relations" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A knowledge graph represents text as entities connected by labeled relations.
-</div>
 
 The core of the system is a custom **Open Information Extraction (OpenIE)** pipeline for high-recall entity and relation extraction. We started with established tools like Neo4j's SimpleKGPipeline and LLMGraphBuilder, but our use case called for denser graphs and a different extraction approach than they were built for — so we moved to a custom pipeline tailored to those needs. Alongside the extraction work, I benchmarked performance across several LLM backbones (Qwen, DeepSeek, Kimi, and others) routed through OpenRouter, assessing the cost-versus-quality tradeoff to pick the right model for the job.
 
