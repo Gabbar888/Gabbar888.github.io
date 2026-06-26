@@ -4,7 +4,7 @@ title: Knowledge Graph Extraction from Unstructured Text
 description: Open-source pipeline for dense KG generation — pre-release
 img: assets/img/projects/kg.png
 importance: 1
-category: engineering
+category: research
 related_publications: false
 ---
 
