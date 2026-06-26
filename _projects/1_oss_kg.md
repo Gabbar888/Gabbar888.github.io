@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Knowledge Graph Extraction
-description: Open-source pipeline for dense KG & Dialogue Generation — **pre-release**
+description: Open-source pipeline for dense KG & Dialogue Generation — pre-release
 img: assets/img/projects/kg.png
 importance: 1
 category: research
